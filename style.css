@@ -1,0 +1,35 @@
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    max-width: 1.5in;
+    min-width: .5;
+    flex-grow: 1;
+    height:.5in;
+    font-size: larger;
+    border: 3px solid #2898E5;
+    border-radius: 10px;
+    background-color: #2898E5 ;
+    color: white;
+}
+#score-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
